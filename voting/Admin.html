@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>online Voting System For College</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+   
+</head>
+<body>
+    <style>
+        #backbtn {
+            padding: 5px;
+            font-size: 15px;
+            background-color: #3498db;
+            color: white;
+            border-radius: 5px;
+            float: left;
+            margin: 10px;
+        }
+        </style>
+    <center>
+        <div id="headerSection">
+            <a href="index.html"><button id="backbtn">Back</button></a>
+            <h1>Online Voting System For College</h1>
+        </div>
+        <hr>
+        <div id="bodySection">
+            <div class="container">
+                <form action="api/Admin.php" method="POST">
+                    <h2>Login</h2>
+                    <input type="text" name="username" placeholder="Enter username"><br><br>
+                    <input type="password" name="password" placeholder="Enter password"><br><br>
+                   <button id="loginbtn" type="submit" name="Alogin">Login</button><br><br>
+                    
+                </form>
+            </div>
+        </div>
+    </center>
+</body>
+
+</html>
